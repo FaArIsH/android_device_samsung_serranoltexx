@@ -31,7 +31,7 @@
 TARGET_OTA_ASSERT_DEVICE := serranolte,serranoltebmc,serranoltektt,serranoltexx
 
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8930_serrano_eur_lte_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8930_lt02_spr_defconfig
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
