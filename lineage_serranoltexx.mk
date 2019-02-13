@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, device/samsung/serranoltexx/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/crdroid/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
 PRODUCT_NAME := lineage_serranoltexx
 PRODUCT_DEVICE := serranoltexx
