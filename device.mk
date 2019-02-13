@@ -21,7 +21,7 @@ $(call inherit-product, device/samsung/serrano-common/serrano-common.mk)
 $(call inherit-product, vendor/samsung/serranoltexx/serranoltexx-vendor.mk)
 
 # Device overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/serranoltexx/overlay
+#DEVICE_PACKAGE_OVERLAYS += device/samsung/serranoltexx/overlay
 
 # Permissions
 #PRODUCT_COPY_FILES += \
