@@ -28,7 +28,7 @@
 -include vendor/samsung/serranoltexx/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := serranolte,serranoltebmc,serranoltektt,serranoltexx
+TARGET_OTA_ASSERT_DEVICE := lt02ltespr,lt02lte,lt02ltetmo,lt02ltexx
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_lt02_spr_defconfig
