@@ -22,13 +22,13 @@ $(call inherit-product, device/samsung/serranoltexx/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
 
-PRODUCT_NAME := dot_lt02ltespr
-PRODUCT_DEVICE := lt02ltespr
+PRODUCT_NAME := dot_serranoltexx
+PRODUCT_DEVICE := serranoltexx
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=lt02ltespr \
-    PRIVATE_BUILD_DESC="lt02ltespr-user 4.4.2 KOT49H T217SVPSBQA1 release-keys"
+    TARGET_DEVICE=serranoltexx \
+    PRIVATE_BUILD_DESC="serranoltexx-user 4.4.2 KOT49H I9195XXUCNE6 release-keys"
 
-BUILD_FINGERPRINT := "samsung/lt02ltespr/lt02ltespr:4.4.2/KOT49H/T217SVPSBQA1:user/release-keys"
+BUILD_FINGERPRINT := "samsung/serranoltexx/serranolte:4.4.2/KOT49H/I9195XXUCNE6:user/release-keys"
