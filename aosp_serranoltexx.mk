@@ -21,7 +21,7 @@ $(call inherit-product, device/samsung/serranoltexx/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/aosp/common.mk)
-TARGET_BOOT_ANIMATION_RES := 720
+TARGET_BOOT_ANIMATION_RES := 1024
 EXTENDED_BUILD_TYPE := UNOFFICIAL
 
 PRODUCT_NAME := aosp_serranoltexx
