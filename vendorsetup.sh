@@ -1,1 +1,1 @@
-add_lunch_combo aosp_serranoltexx-userdebug
+add_lunch_combo bliss_serranoltexx-userdebug
