@@ -1,3 +1,5 @@
 # system.prop for serranoltexx
 #
-# ro.telephony.default_network=3
+# RIL
+rild.libpath=/vendor/lib/libsec-ril.so
+ro.telephony.default_network=3
