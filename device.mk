@@ -21,8 +21,8 @@ $(call inherit-product, device/samsung/serrano-common/serrano-common.mk)
 $(call inherit-product, vendor/samsung/serranoltexx/serranoltexx-vendor.mk)
 
 # Device overlay
-#DEVICE_PACKAGE_OVERLAYS += device/samsung/serranoltexx/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/serranoltexx/overlay
 
 # Permissions
-#PRODUCT_COPY_FILES += \
-#    frameworks/native/data/etc/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.gsm.xml
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.gsm.xml
