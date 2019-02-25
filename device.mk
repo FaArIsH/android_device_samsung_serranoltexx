@@ -16,7 +16,6 @@
 
 # Inherit from serrano-common
 $(call inherit-product, device/samsung/serrano-common/serrano-common.mk)
-$(call inherit-product, device/samsung/serrano-common/nfc.mk)
 
 # Also get non-open-source specific aspects
 $(call inherit-product, vendor/samsung/serranoltexx/serranoltexx-vendor.mk)
@@ -26,10 +25,5 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/serranoltexx/overlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.gsm.xml
+    frameworks/native/data/etc/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.cdma.xml
 
-# FM radio
-PRODUCT_PACKAGES += \
-    android.hardware.broadcastradio@1.0-impl \
-    FM2 \
-    qcom.fmradio
